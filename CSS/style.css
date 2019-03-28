@@ -96,13 +96,13 @@ h4 {
 }
 
 .heroHeader {
-  font-size: 40px;
-  width: 65%;
+  font-size: 32px;
+  width: 80%;
   margin: 0 auto;
 }
 
 .heroSubheader {
-  margin: 20px 0px;
+  margin: 20px auto;
   font-size: 20px;
   padding: 0px 10px;
   opacity: 0.8;
@@ -405,6 +405,15 @@ h4 {
 
 
 @media screen and (max-width: 960px) {
+  .heroHeader{
+    font-size: 25px;
+    width: 85%;
+  }
+
+  .heroSubHeader {
+    font-size: 18px;
+  }
+
   .press {
     width: 100%;
     text-align: center;
@@ -416,7 +425,7 @@ h4 {
   }
 
   .pressBigImageContainer {
-    width: 90%;
+    width: 89%;
     margin: 0 auto;
     display: block;
   }
@@ -475,8 +484,24 @@ h4 {
 }
 
 @media screen and (max-width: 645px) {
-  .valueProp {
-    width: 100%;
+  p {
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+  .heroHeader {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .heroSubheader {
+    font-size: 15px;
+    width: 75%;
+  }
+  .sectionHeader {
+    font-size: 25px;
   }
 
   .credText {
@@ -488,6 +513,31 @@ h4 {
     display: block;
     width: 85%;
     margin: 10px auto;
+  }
+
+  .proofColumnText {
+    font-size: 16px;
+  }
+
+  .valueProp {
+    width: 100%;
+  }
+
+  .descBulletPoints {
+    font-size: 14px;
+  }
+
+  .boldClaim {
+    font-size: 20px;
+  }
+
+  .bigImageSubText {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .pressBlurb {
+    font-size: 13px;
   }
 
   .testimonialTabs {
