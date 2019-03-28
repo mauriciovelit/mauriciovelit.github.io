@@ -108,6 +108,11 @@ h4 {
   opacity: 0.8;
 }
 
+.logoHeader {
+  height: 40px;
+  margin: 20px auto;
+}
+
 .primaryButton {
   background-color: #1b4fce;
   color: white;
@@ -242,10 +247,10 @@ h4 {
 }
 
 .pressContent {
+  height: 100%;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   overflow: hidden;
+  transform: translateY(10%);
 }
 
 .bigImage {
@@ -267,6 +272,7 @@ h4 {
 }
 
 .bigImageSubText {
+  width: 90%;
   color: white;
   opacity: 0.8;
   font-size: 16px;
@@ -291,16 +297,20 @@ h4 {
   flex: 1;
 }
 
+.articleLink {
+  text-decoration: none;
+}
+
 .whiteContainer {
   background-color: #ffffff;
 }
 
-.greyArticle {
-  background-color: #455061;
-}
-
 .peachArticle {
   background-color: #ee956d;
+}
+
+.greyArticle {
+  background-color: #455061;
 }
 
 .greenArticle {
@@ -430,6 +440,10 @@ h4 {
     display: block;
   }
 
+  .bigImage {
+    max-height: 580px;
+  }
+
   .bigImageTextContainer {
     padding: 0px;
     left: 15px;
@@ -447,6 +461,7 @@ h4 {
     display: inline-block;
     width: 49%;
     margin: 5px 0px;
+    height: 165px;
   }
 
   .pressArticleHeader {
@@ -467,9 +482,8 @@ h4 {
 
   .pressContent {
     position: relative;
-    top: 0%;
-    transform: translateY(0%);
     height: 100%;
+    transform: translateY(5%);
   }
 
   .testimonial {
@@ -533,7 +547,15 @@ h4 {
 
   .bigImageSubText {
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .pressArticles {
+    height: 220px;
+  }
+
+  .pressContent {
+    transform: translateY(0%);
   }
 
   .pressBlurb {
@@ -542,6 +564,19 @@ h4 {
 
   .testimonialTabs {
     display: block;
+  }
+
+  .companyTestimonial {
+    font-size: 14px;
+  }
+
+  .employee {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .companyName {
+    font-size: 12px;
   }
 
   .companyTab {
@@ -558,3 +593,28 @@ h4 {
     padding-right: 20px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .logoContainer{
+    padding-left: 15px;
+  }
+
+  .navBarListRight {
+    padding-right: 15px;
+  }
+
+  .navlistItem {
+    padding-left: 10px;
+  }
+
+  .pressArticles {
+    height: 240px;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  .heroBanner {
+    padding: 10vh 0px;
+  }
+}
+
