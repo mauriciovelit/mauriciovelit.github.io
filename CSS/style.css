@@ -399,7 +399,7 @@ h4 {
 }
 
 .footer {
-  padding: 75px 125px;
+  padding: 50px 125px 32px 125px;
   text-align: center;
   background-color: #ffffff
 }
@@ -417,7 +417,6 @@ h4 {
 .footerLink:hover {
   cursor: pointer;
   opacity: 0.8;
-
 }
 
 
@@ -498,7 +497,7 @@ h4 {
   }
 
   .footer {
-    padding: 30px 0px;
+    padding: 30px 0px 12px 0px;
   }
 }
 
