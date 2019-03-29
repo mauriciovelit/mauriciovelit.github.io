@@ -411,7 +411,7 @@ h4 {
 .footerLink {
   font-family: 'Open Sans', sans-serif;
   color: #565e69;
-
+  text-decoration: none;
 }
 
 .footerLink:hover {
