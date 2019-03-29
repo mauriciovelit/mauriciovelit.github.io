@@ -71,9 +71,7 @@ h4 {
 
 .buttonLink:hover {
   cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
   opacity: 0.8;
-
 }
 
 .navlistItem{
@@ -410,6 +408,18 @@ h4 {
   margin-bottom: 0px;
 }
 
+.footerLink {
+  font-family: 'Open Sans', sans-serif;
+  color: #565e69;
+
+}
+
+.footerLink:hover {
+  cursor: pointer;
+  opacity: 0.8;
+
+}
+
 
 @media screen and (max-width: 960px) {
   .heroHeader{
@@ -559,6 +569,7 @@ h4 {
 
   .testimonialTabs {
     display: block;
+    width: 90%;
   }
 
   .companyTestimonial {
