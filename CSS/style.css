@@ -284,6 +284,7 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   flex: 1;
+  justify-content: center;
 }
 
 .pressArticles {
@@ -334,6 +335,36 @@ h4 {
   color: #ffffff;
 }
 
+.pressSoloArticle {
+  width: 99%;
+  margin: 15px auto;
+  border-radius: 4px;
+  display: block;
+  background-color: #EF7B5F;
+  text-align: center;
+  height: 110px;
+}
+
+.pressSoloContent {
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+
+}
+
+.pressSoloArticleHeader {
+  height: 40px;
+  margin-top: 15px;
+}
+
+.soloPressBlurb {
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0px; 
+}
+
 .testimonial {
   padding: 75px 0px;
   text-align: center;
@@ -365,7 +396,9 @@ h4 {
 .testimonialTabs {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
+/* testimonialTabs controls the herobanner icons and the testimonal section that is currently hidden. */
 
 .topBorder {
   border-top: 2px solid;
@@ -441,7 +474,7 @@ h4 {
   }
 
   .pressBigImageContainer {
-    width: 89%;
+    width: 90%;
     margin: 0 auto;
     display: block;
   }
@@ -459,14 +492,14 @@ h4 {
   .pressSmallImageContainer {
     margin: 0 auto;
     display: block;
-    width: 90%;
+    width: 94%;
   }
 
   .pressArticles {
     vertical-align: top;
     display: inline-block;
-    width: 49%;
-    margin: 5px 0px;
+    width: 47%;
+    margin: 4px 2px;
     height: 165px;
   }
 
@@ -475,6 +508,12 @@ h4 {
     display: block;
     margin: 0 auto;
     padding-top: 20px;
+  }
+
+  .pressSoloArticle {
+    height: 135px;
+    width: 90%;
+    margin: 4px auto;
   }
 
   .offerColumnContainer {
@@ -614,6 +653,11 @@ h4 {
 
   .pressArticles {
     height: 240px;
+  }
+
+  .pressSoloArticle {
+    height: 150px;
+    margin: 4px auto;
   }
 }
 
